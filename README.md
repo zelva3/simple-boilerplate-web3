@@ -3,4 +3,4 @@ A simple boilerplate project using web3, ganache and Infura to connect with Ethe
 
 A simple project to run solidity using web3 and node js
 
-Used Solidity version 0.4.17
+Used Solidity version 0.8.9
