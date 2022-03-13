@@ -1,14 +1,14 @@
-pragma solidity 0.4.17;
+pragma solidity ^0.8.9;
 
 contract MyBlock {
     string value;
-    function MyBlock (string initvalue) public{
+    constructor (string memory initvalue) public{
         value = initvalue;
     }
-    function setvalue(string newvalue) public {
+    function setvalue(string memory newvalue) public {
         value = newvalue;
     }
-    function getvalue() public view returns (string){
+    function getvalue() public view returns (string memory){
         return value;
     }
 }
